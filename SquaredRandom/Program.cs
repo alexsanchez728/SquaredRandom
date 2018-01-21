@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SquaredRandom.Terminal;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace SquaredRandom
     {
         static void Main(string[] args)
         {
+            SquareToEven.GetEvenSquares();
         }
     }
 }
